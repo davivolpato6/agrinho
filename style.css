@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(0, 225, 255);
+}
+
+.container {
+    margin: 20px; /* Adiciona margem de 20px em todos os lados */
+}
+
+.caixa {
+    margin-top: 10px; /* Margem superior */
+    margin-right: 15px; /* Margem direita */
+    margin-bottom: 10px; /* Margem inferior */
+    margin-left: 15px; /* Margem esquerda */
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 100vh; /* Ajusta a altura para ocupar toda a tela */
+}
+
+.center-text {
+    text-align: center;
+}
+
